@@ -1,0 +1,7 @@
+# Non-sensitive DuckDB connection settings
+# Evidence writes secrets (if any) to connection.options.yaml
+
+type: duckdb
+name: duckdb
+options:
+  filename: analytics.duckdb

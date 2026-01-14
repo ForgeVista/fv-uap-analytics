@@ -1,0 +1,23 @@
+# Evidence configuration for fv-uap-analytics
+# Docs: https://docs.evidence.dev
+
+# Build output directory
+# - Default is ./build
+# - Override by setting EVIDENCE_BUILD_DIR in your environment
+
+# Deployment configuration (optional)
+# If you host under a subpath, set it here (must start with / and not end with /)
+# deployment:
+#   basePath: /analytics
+
+appearance:
+  # default theme for new users: light | dark | system
+  default: system
+  # show theme switcher in the UI
+  switcher: true
+
+theme:
+  colors:
+    primary: "#1f2937"
+    accent: "#2563eb"
+    base: "#f8fafc"
